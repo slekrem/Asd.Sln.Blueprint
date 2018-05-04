@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\2-Application\Asd.Application.BoundedContext\Asd.Application.BoundedContext.csproj" />
+    <ProjectReference Include="..\..\4-Infra\4.2-CrossCutting\Asd.Infra.CrossCutting.BoundedContext\Asd.Infra.CrossCutting.BoundedContext.csproj" />
+    <ProjectReference Include="..\..\4-Infra\4.2-CrossCutting\Asd\Asd.Infra.CrossCutting.Bus.csproj" />
+    <ProjectReference Include="..\Asd\Asd.Service.csproj" />
+  </ItemGroup>
+
+</Project>
