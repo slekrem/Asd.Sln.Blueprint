@@ -1,0 +1,10 @@
+src/1-Services/Asd/bin
+src/1-Services/Asd/obj
+src/2-Application/Asd/bin
+src/2-Application/Asd/obj
+src/3-Domain/Asd/bin
+src/3-Domain/Asd/obj
+src/4-Infra/4.1-Data/Asd/bin
+src/4-Infra/4.1-Data/Asd/obj
+src/4-Infra/4.2-CrossCutting/Asd/bin
+src/4-Infra/4.2-CrossCutting/Asd/obj
