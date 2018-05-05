@@ -10,4 +10,12 @@
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\2-Application\Asd.Application.BoundedContext\Asd.Application.BoundedContext.csproj" />
+    <ProjectReference Include="..\..\..\3-Domain\Asd.Domain\Asd.Domain.csproj" />
+    <ProjectReference Include="..\..\4.1-Data\Asd.Infra.Data.BoundedContext\Asd.Infra.Data.BoundedContext.csproj" />
+    <ProjectReference Include="..\..\4.1-Data\Asd.Infra.Data\Asd.Infra.Data.csproj" />
+    <ProjectReference Include="..\Asd.Infra.CrossCutting.Bus\Asd.Infra.CrossCutting.Bus.csproj" />
+  </ItemGroup>
+
 </Project>

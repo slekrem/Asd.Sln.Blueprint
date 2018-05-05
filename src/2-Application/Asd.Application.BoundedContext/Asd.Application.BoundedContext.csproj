@@ -11,7 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\3-Domain\Asd.Domain.BoundedContext\Asd.Domain.BoundedContext.csproj" />
-    <ProjectReference Include="..\Asd\Asd.Application.csproj" />
+    <ProjectReference Include="..\Asd.Application\Asd.Application.csproj" />
   </ItemGroup>
 
 </Project>

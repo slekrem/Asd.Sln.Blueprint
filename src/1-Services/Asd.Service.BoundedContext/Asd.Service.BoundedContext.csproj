@@ -15,8 +15,8 @@
   <ItemGroup>
     <ProjectReference Include="..\..\2-Application\Asd.Application.BoundedContext\Asd.Application.BoundedContext.csproj" />
     <ProjectReference Include="..\..\4-Infra\4.2-CrossCutting\Asd.Infra.CrossCutting.BoundedContext\Asd.Infra.CrossCutting.BoundedContext.csproj" />
-    <ProjectReference Include="..\..\4-Infra\4.2-CrossCutting\Asd\Asd.Infra.CrossCutting.Bus.csproj" />
-    <ProjectReference Include="..\Asd\Asd.Service.csproj" />
+    <ProjectReference Include="..\..\4-Infra\4.2-CrossCutting\Asd.Infra.CrossCutting.Bus\Asd.Infra.CrossCutting.Bus.csproj" />
+    <ProjectReference Include="..\Asd.Service\Asd.Service.csproj" />
   </ItemGroup>
 
 </Project>

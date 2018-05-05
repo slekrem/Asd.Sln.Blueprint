@@ -5,10 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Asd\Asd.Domain.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Folder Include="CommandHandlers\" />
     <Folder Include="Commands\" />
     <Folder Include="EventHandlers\" />
@@ -20,6 +16,10 @@
 
   <ItemGroup>
     <PackageReference Include="FluentValidation" Version="7.5.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Asd.Domain\Asd.Domain.csproj" />
   </ItemGroup>
 
 </Project>

@@ -15,7 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\3-Domain\Asd.Domain.BoundedContext\Asd.Domain.BoundedContext.csproj" />
-    <ProjectReference Include="..\Asd\Asd.Infra.Data.csproj" />
+    <ProjectReference Include="..\Asd.Infra.Data\Asd.Infra.Data.csproj" />
   </ItemGroup>
 
 </Project>
