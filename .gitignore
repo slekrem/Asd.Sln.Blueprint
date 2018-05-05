@@ -18,3 +18,5 @@ src/4-Infra/4.2-CrossCutting/Asd/bin
 src/4-Infra/4.2-CrossCutting/Asd/obj
 src/4-Infra/4.2-CrossCutting/Asd.Infra.CrossCutting.BoundedContext/bin
 src/4-Infra/4.2-CrossCutting/Asd.Infra.CrossCutting.BoundedContext/obj
+
+*.csproj.user
